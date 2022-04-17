@@ -36,7 +36,11 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                </div>
+                  <div className="flex row">
+                    <div className="p-1 m-2 bg-gray-200 text-gray-900 w-40 rounded"><a href={project.link}>Live Link</a></div>
+                    <div className="p-1 m-2 bg-gray-200 text-gray-900 w-40 rounded"><a href={project.github}>Github Repo</a></div>
+                  </div>
+                  </div>
               </div>
             </a>
           ))}

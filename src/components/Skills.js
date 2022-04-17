@@ -11,10 +11,10 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base leading-relaxed xl:w-3/4 lg:w-3/4 mx-auto">
             I firmly believe that the most important skill is that of being able to solve problems. 
-            I also fundamentally believe in my ability to quickly learn new programming languages and concepts as the need and desire presents itself.
-            These are the technologies in which I have acquired the most experience and would be most confident in applying immediately, through bith self-learning and educating others.
+            <br />I also fundamentally believe in my ability to quickly learn new programming languages and concepts as the need and desire presents itself.
+           <br /> However, below are the technologies in which I have acquired the most experience and would be most confident in applying immediately, through bith self-learning and educating others.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
